@@ -1,0 +1,19 @@
+{
+  "profileName": "ChatBot Clima",
+  "jobId": "c5846999-f1d6-47e2-b835-a195a3267b32",
+  "projectId": "36834.0098754437",
+  "time": "2022-10-11T17:37:50.436Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: ChatBot at westeurope",
+    "> Creating App Registration ...",
+    "App create failed, retrying ...",
+    "App create failed, retrying ...",
+    "App create failed, retrying ...",
+    "App create failed, retrying ...",
+    "App create failed after 3 retries. Error: Request failed with status code 401",
+    "{\"name\":\"CREATE_APP_REGISTRATION\",\"message\":\"App create failed! Please file an issue on Github.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276418:25)\\n    at createCustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276423:10)\\n    at BotProjectProvision.createApp (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:277931:17)\"}",
+    "{\"name\":\"CREATE_APP_REGISTRATION\",\"message\":\"App create failed! Please file an issue on Github.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276418:25)\\n    at createCustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276423:10)\\n    at BotProjectProvision.createApp (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:277931:17)\"}. See provision.ChatBot Clima.log in your bot folder"
+  ]
+}

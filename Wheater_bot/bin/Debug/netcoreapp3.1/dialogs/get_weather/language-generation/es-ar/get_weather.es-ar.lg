@@ -1,0 +1,53 @@
+[import](common.lg)
+
+# SendActivity_qiX17l()
+[Activity
+    Text = ${SendActivity_qiX17l_text()}
+]
+
+# SendActivity_qiX17l_text()
+- Vamos a chequear el clima.
+# TextInput_Prompt_u88j75()
+[Activity
+    Text = ${TextInput_Prompt_u88j75_text()}
+]
+
+# TextInput_Prompt_u88j75_text()
+- Cual es su codigo postal?
+# TextInput_UnrecognizedPrompt_u88j75()
+[Activity
+    Text = ${TextInput_UnrecognizedPrompt_u88j75_text()}
+]
+
+# TextInput_UnrecognizedPrompt_u88j75_text()
+- Lo siento, no entiendo el valor ingresado '${this.value}'. Por favor ingrese un codigo postal de 4 digitos como en el siguiente ejemplo: 1440. 
+# TextInput_InvalidPrompt_u88j75()
+[Activity
+    Text = ${TextInput_InvalidPrompt_u88j75_text()}
+]
+
+# TextInput_InvalidPrompt_u88j75_text()
+- Lo siento, '${this.value}' no es valido. Estoy buscando codigos postales de 4 numeros. Por favor, ingrese un codigo postal de 4 digitos. Ej: 1440.
+# TextInput_DefaultValueResponse_u88j75()
+- 1440
+# SendActivity_Rs6tOV()
+[Activity
+    Text = ${SendActivity_Rs6tOV_text()}
+    Attachments = ${SendActivity_Rs6tOV_attachment_ENugM6()}
+]
+
+# SendActivity_Rs6tOV_text()
+- El clima es ${dialog.kelvin}F o ${dialog.celsius}C y ${dialog.weather}.
+# SendActivity_v2e9Yw()
+[Activity
+    Text = ${SendActivity_v2e9Yw_text()}
+]
+
+# SendActivity_v2e9Yw_text()
+- Algo salio mal: ${dialog.api_response.content.message}.
+# SendActivity_Rs6tOV_attachment_ENugM6()
+[ThumbnailCard
+   title = Clima en  ${dialog.city} , ${dialog.country}
+   text =  El clima esta "${dialog.weather}" en ${user.postalcode} y la temperatura es ${dialog.kelvin}&deg;F o ${dialog.celsius}&deg;C. Que tengas un lindo dia.
+   image = http://openweathermap.org/img/wn/${dialog.icon}@2x.png
+]   

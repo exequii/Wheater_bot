@@ -1,0 +1,9 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_Wheater_bot",
+  "recognizers": {
+    "en-us": "Wheater_bot.en-us.lu",
+    "": "Wheater_bot.en-us.lu",
+    "es-ar": "Wheater_bot.en-us.lu"
+  }
+}

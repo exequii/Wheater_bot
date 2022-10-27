@@ -1,0 +1,13 @@
+[import](common.lg)
+
+# SendActivity_HelpOverview()
+[Activity
+    Text = ${SendActivity_HelpOverview_text()}
+]
+
+# SendActivity_HelpOverview_text()
+- Estoy aqui para ayudarte con algunas simples preguntas. Soy un bot basico por ahora.
+- Soy un bot simple, puedo ayudarte en cosas basicas.
+- Por ahora, puedo ayudarte en pocas cuestiones.
+
+> Imported: 95949fcc5eb2077f9cffd10817a11340
